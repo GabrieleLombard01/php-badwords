@@ -1,7 +1,7 @@
 <?php
     $censured_word = $_GET["word"];
     $paragraph = $_GET[trim("paragraph")];
-
+    $final_text = str_replace(strtolower($censured_word)), '*********', strtolower($paragraph)
 ?>
 
 <!DOCTYPE html>
